@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snoozy</title>
+    <style>
+        
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background with gradient inspired by "333" album */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: radial-gradient(circle at center, #3a3e78, #121212);
+            color: #d6d6f5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* Container for content */
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(58, 62, 120, 0.5);
+            max-width: 800px;
+            border: 1px solid #3333ff;
+        }
+
+        /* Heading style */
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            color: #9999ff;
+            text-shadow: 0 0 10px #3333ff;
+        }
+
+        /* Button styles */
+        .button {
+            background-color: #9999ff;
+            color: #121212;
+            padding: 10px 20px;
+            margin: 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 0 10px #6666ff;
+        }
+
+        .button:hover {
+            background-color: #6666ff;
+            transform: scale(1.1);
+        }
+
+        /* Link styles */
+        a {
+            color: #d6d6f5;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        /* Add a subtle glow effect to elements */
+        .glow {
+            text-shadow: 0 0 15px #6666ff;
+        }
+
+        /* Adding an animated background effect */
+        .animated-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, transparent, rgba(58, 62, 120, 0.2));
+            animation: pulse 3s infinite;
+            z-index: -1;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Animated background effect -->
+    <div class="animated-bg"></div>
+
+    <!-- Main container -->
+    <div class="container">
+        <h1 class="glow">hi im snoozy</h1>
+        <p>no life experience</p>
+        <p>i like the smiths</p>
+        <p>i need a bf but dont flirt with me</p>
+        <br>
+
+        <img src="d21cc36a8c1b8803f49aa8c2a4634741.jpg" height="200">
+        <br>
+
+        <!-- Buttons for navigation -->
+        <a href="ok.html"><button class="button glow">ok</button></a>
+        <br>
+        
+        <!-- Placeholder for future content -->
+        <img src="d96227d28cf8d1ed77909029e19318d2.gif">
+
+        <!-- Sample link -->
+        <p>PLEASE FOLLOW ME I FOLLOW BACK</p>
+        
+        <a href="https://twitter.com/snoozaii?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @snoozaii</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </div>
+
+</body>
+</html>
